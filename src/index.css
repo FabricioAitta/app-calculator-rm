@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./fondo.jpg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.background{
+  height: 100vh;
+}
+
+.titulo{
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 0.5rem;
+  color: #00ba22;
+}
+
+.tarjeta{
+  margin-top: 10vh;
+}
+
+.label{
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ba22;
+  background-color: #011405;
+  border-radius: 10%;
+}
+
+.color-boton{
+  background-color: #00ba22;
+  border: none;
+}
+
+.opciones{
+  border-color: #00ba22;
+  margin-bottom: 5px;
+}
+
+.background-table{
+  background-color: #00ba22;
+  margin-bottom: 40px;
+}
+
+.redondear{
+  color: #00ba22;
+  font-weight: bold;
+  background-color: #011405;
+  margin-bottom: 5px;
+}
+
+.botoninicio{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  background-color: #00ba22;
+}
+
+.footer{
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 28px;
+  color: #00ba22;
+}
+
+.imagen{
+  width: 60px;
+}
+
+@media (max-width: 700px){
+  .titulo{
+    font-size: 20px;
+  }
+  .imagen{
+    width: 40px;
+  }
+  .label{
+    font-size: 15px;
+  }
+}
